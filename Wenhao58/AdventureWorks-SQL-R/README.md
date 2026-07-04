@@ -23,42 +23,42 @@ Monthly sales line charts for top products
 Build linear regression models to forecast 2014 sales for the top 3 revenue‑generating products.
 
 Tools & Technologies
-SQL Server (AdventureWorks2016)
+- SQL Server (AdventureWorks2016)
 
-R
+- R
 
-dplyr
+- dplyr
 
-ggplot2
+- ggplot2
 
-forecast
+- forecast
 
-DBI / odbc
+- DBI / odbc
 
 PowerPoint (final presentation)
 
 Word (code + written analysis)
 
 Key Skills Demonstrated
-SQL querying and data extraction
+- SQL querying and data extraction
 
-R data manipulation and cleaning
+- R data manipulation and cleaning
 
 Summary statistics and exploratory analysis
 
-Data visualization (pie, bar, line charts)
+- Data visualization (pie, bar, line charts)
 
-Time‑based trend analysis
+- Time‑based trend analysis
 
-Linear regression modeling
+- Linear regression modeling
 
-Forecasting future sales
+- Forecasting future sales
 
-Business insight communication
+- Business insight communication
 
 Project Components
-Component 1 — Initial Data Analysis
-Retrieved 2013 order data from SQL Server
+- Component 1 — Initial Data Analysis
+- Retrieved 2013 order data from SQL Server
 
 Identified:
 
@@ -88,11 +88,11 @@ Created monthly sales line charts for:
 Added legends, labels, and color coding
 
 Component 3 — Predictive Analytics
-Built linear regression models using 2013 monthly sales
+- Built linear regression models using 2013 monthly sales
 
-Forecasted Jan–Jun 2014 revenue for top 3 products
+- Forecasted Jan–Jun 2014 revenue for top 3 products
 
-Plotted predictions with distinct point types
+- Plotted predictions with distinct point types
 
 Added line‑of‑best‑fit
 
