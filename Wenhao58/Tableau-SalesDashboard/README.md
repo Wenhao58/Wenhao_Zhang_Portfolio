@@ -1,4 +1,9 @@
 <img width="2550" height="3300" alt="Tableau" src="https://github.com/user-attachments/assets/e4b33924-cf1c-4b9d-a3f7-1fd77a8039d8" />
+# Heading 1
+## Heading 2
+**Bold text**
+*Italic text*
+- Bullet points
 📊 Tableau Sales Performance Dashboard
 Project Overview
 This project showcases an interactive Tableau dashboard built to visualize key sales metrics from the AdventureWorks dataset. The dashboard highlights product performance, revenue trends, and customer purchasing behavior through dynamic charts and filters.
@@ -93,11 +98,7 @@ Future Improvements
 
 - Publish the dashboard to Tableau Public for public viewing.
 
-# Heading 1
-## Heading 2
-**Bold text**
-*Italic text*
-- Bullet points
+
 ![Image description](assets/Tableau.jpg)
 *Figure 1: Tableau dashboard comparing 2009 vs 2008 sales performance.*
 
