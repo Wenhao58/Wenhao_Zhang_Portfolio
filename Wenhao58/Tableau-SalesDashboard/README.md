@@ -93,6 +93,3 @@ Future Improvements
 
 - Publish the dashboard to Tableau Public for public viewing.
 
-
-*Figure 1: Tableau dashboard comparing 2009 vs 2008 sales performance.*
-
