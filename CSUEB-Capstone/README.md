@@ -73,5 +73,13 @@ Markdown — reproducible reporting
 Outcome
 This project demonstrated my ability to manage a full analytics lifecycle — from raw data to actionable insights — and reinforced my skills in statistical modeling, data engineering, and business communication.
 
+
+### CLV Forecast Visualization
+
+Below is the forecast output generated from the final model, showing predicted Customer Lifetime Values for the test set.
+
 ![CLV Forecast](assets/clv_forecast.png)
+
+*Figure 1: Predicted Customer Lifetime Values (CLV) for the test dataset.*
+
 
