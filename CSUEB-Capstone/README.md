@@ -74,3 +74,4 @@ Outcome
 This project demonstrated my ability to manage a full analytics lifecycle — from raw data to actionable insights — and reinforced my skills in statistical modeling, data engineering, and business communication.
 
 ![CLV Forecast](assets/clv_forecast.png)
+
