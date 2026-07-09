@@ -1,4 +1,5 @@
 Customer Lifetime Value Modeling — Graduate Capstone Project (CSUEB)
+
 This project served as the culminating experience of my graduate analytics program at California State University East Bay. I designed and implemented a complete end‑to‑end machine learning workflow to estimate Customer Lifetime Value (CLV) using real business data. The work combined SQL data extraction, R‑based modeling, and structured documentation aligned with academic and industry standards.
 
 Project Objectives
@@ -71,3 +72,5 @@ Markdown — reproducible reporting
 
 Outcome
 This project demonstrated my ability to manage a full analytics lifecycle — from raw data to actionable insights — and reinforced my skills in statistical modeling, data engineering, and business communication.
+
+![CLV Forecast](assets/clv_forecast.png)
