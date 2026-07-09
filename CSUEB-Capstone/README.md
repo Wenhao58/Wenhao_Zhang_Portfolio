@@ -78,7 +78,7 @@ This project demonstrated my ability to manage a full analytics lifecycle — fr
 
 Below is the forecast output generated from the final model, showing predicted Customer Lifetime Values for the test set.
 
-![CLV Forecast](assets/clv_forecast.png)
+![CLV Forecast](assets/clv_forecast)
 
 *Figure 1: Predicted Customer Lifetime Values (CLV) for the test dataset.*
 
