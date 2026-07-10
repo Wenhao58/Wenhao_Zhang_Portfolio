@@ -102,7 +102,7 @@ Below is the forecast output generated from the final model, showing predicted C
 
 If you have questions about this project or would like to discuss the modeling approach, feel free to reach out:
 
-- **Email:** [zhanglili1004@live.cn]
+- **Email:** [(zhanglili1004@live.cn)]
 - **LinkedIn:** [(https://www.linkedin.com/in/wenhao-zhang-ba783a413/?skipRedirect=true)]
 - **GitHub:** [(https://github.com/Wenhao58)]
 
