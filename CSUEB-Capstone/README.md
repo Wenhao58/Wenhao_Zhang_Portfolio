@@ -92,7 +92,7 @@ Below is the forecast output generated from the final model, showing predicted C
 To interpret the model, I analyzed feature importance scores to identify which variables most influenced predicted Customer Lifetime Value (CLV).  
 This helps translate statistical results into actionable business insights.
 
-![Feature Importance](assets/Feature - Importance without churn.PNG)
+![Feature Importance](CSUEB-Capstone/assets/Feature - Importance without churn.PNG)
 
 *Figure 2: Top predictors of Customer Lifetime Value (CLV) based on model coefficients.*
 
