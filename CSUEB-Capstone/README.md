@@ -118,6 +118,10 @@ High multicollinearity (condition number ≈ 1.42e+17) and weak predictive power
 
 This baseline was essential for demonstrating improvement in later models such as Ridge, ElasticNet, and XGBoost.
 
+![OLS Regression Summary](assets/model_performance/OLS Regression Results - 1.png)
+![OLS Regression Summary](assets/model_performance/OLS Regression Results - 2.png)
+![OLS Regression Summary](assets/model_performance/OLS Regression Results - 3.png)
+
 ---
 
 ## 📁 Project Structure
