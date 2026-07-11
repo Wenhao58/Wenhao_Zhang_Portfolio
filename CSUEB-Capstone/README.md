@@ -110,6 +110,14 @@ The plots below highlight how variable importance shifts depending on whether ch
 
 *Figure 3: Comparison of feature importance between models with and without churn variable.*
 
+### Baseline Model: OLS Regression
+
+I began with an Ordinary Least Squares (OLS) regression model to establish a baseline for CLV prediction.  
+The model performed poorly, with an R² of approximately 0.035, indicating that linear relationships alone could not explain customer lifetime value.  
+High multicollinearity (condition number ≈ 1.42e+17) and weak predictive power highlighted the need for regularization and nonlinear modeling approaches.
+
+This baseline was essential for demonstrating improvement in later models such as Ridge, ElasticNet, and XGBoost.
+
 ---
 
 ## 📁 Project Structure
