@@ -97,6 +97,19 @@ This helps translate statistical results into actionable business insights.
 
 *Figure 2: Top predictors of Customer Lifetime Value (CLV) based on model coefficients.*
 
+### Feature Importance Comparison
+
+To evaluate the impact of churn on Customer Lifetime Value (CLV) predictions, I compared two models: one including churn as a predictor and one excluding it.  
+The plots below highlight how variable importance shifts depending on whether churn is considered.
+
+**Model Including Churn**
+![Feature Importance with Churn](assets/important_feature/Feature_Importance_with_churn.PNG)
+
+**Model Excluding Churn**
+![Feature Importance without Churn](assets/important_feature/Feature_Importance_without_churn.PNG)
+
+*Figure 3: Comparison of feature importance between models with and without churn variable.*
+
 ---
 
 ## 📁 Project Structure
