@@ -93,6 +93,7 @@ To interpret the model, I analyzed feature importance scores to identify which v
 This helps translate statistical results into actionable business insights.
 
 ![Feature Importance](assets/Feature_Importance_without_churn.PNG)
+![Feature Importance](assets/Feature_Importance_with_churn.PNG)
 
 *Figure 2: Top predictors of Customer Lifetime Value (CLV) based on model coefficients.*
 
