@@ -150,7 +150,7 @@ Highlighted key behavioral and transactional features as dominant predictors of 
 
 Figure 4: Regularized regression results showing improved model stability and predictive performance.
 
-![OLS Regression Summary](assets/model_performance/Model%20Performance%20Comparison.PNG)
+![OLS Regression Summary](assets/model_performance/Model Performance Comparison.PNG)
 
 Interpretation
 Regularization significantly improved model performance compared to the OLS baseline.
