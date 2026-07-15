@@ -122,6 +122,33 @@ This baseline was essential for demonstrating improvement in later models such a
 ![OLS Regression Summary](assets/model_performance/OLS_Regression_Results_2.PNG)
 ![OLS Regression Summary](assets/model_performance/OLS_Regression_Results_3.PNG)
 
+Regularized Models: Ridge and ElasticNet Regression
+To address the multicollinearity and weak predictive power observed in the OLS baseline, I implemented Ridge and ElasticNet regression models.
+Both methods apply regularization to reduce overfitting and stabilize coefficient estimates.
+
+Ridge Regression
+
+Introduces an L2 penalty to shrink coefficients toward zero.
+
+Helps manage correlated predictors by distributing weights more evenly.
+
+Achieved a moderate improvement in R² and reduced RMSE compared to OLS.
+
+Demonstrated smoother coefficient behavior, confirming reduced variance.
+
+ElasticNet Regression
+
+Combines L1 (Lasso) and L2 (Ridge) penalties for balanced regularization.
+
+Performs variable selection while maintaining stability.
+
+Produced the best trade‑off between interpretability and predictive accuracy among linear models.
+
+Highlighted key behavioral and transactional features as dominant predictors of CLV.
+
+Figure 4: Regularized regression results showing improved model stability and predictive performance.
+
+![OLS Regression Summary](assets/model_performance/Model Performance Comparison.PNG)
 ---
 
 ## 📁 Project Structure
