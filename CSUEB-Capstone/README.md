@@ -122,6 +122,8 @@ This baseline was essential for demonstrating improvement in later models such a
 ![OLS Regression Summary](assets/model_performance/OLS_Regression_Results_2.PNG)
 ![OLS Regression Summary](assets/model_performance/OLS_Regression_Results_3.PNG)
 
+---
+
 Regularized Models: Ridge and ElasticNet Regression
 To address the multicollinearity and weak predictive power observed in the OLS baseline, I implemented Ridge and ElasticNet regression models.
 Both methods apply regularization to reduce overfitting and stabilize coefficient estimates.
@@ -154,6 +156,8 @@ Interpretation
 Regularization significantly improved model performance compared to the OLS baseline.
 Ridge regression stabilized coefficients and reduced overfitting, while ElasticNet achieved the most balanced results by combining L1 and L2 penalties.
 These models demonstrated that incorporating regularization helps capture meaningful relationships between behavioral and transactional features without sacrificing interpretability
+
+---
 
 🌳 Tree‑Based Models: HistGradientBoosting & XGBoost
 To capture nonlinear relationships and complex interactions between customer behavior, transaction patterns, and churn risk, I implemented two tree‑based ensemble models: HistGradientBoosting and XGBoost. These models typically outperform linear methods in CLV prediction due to their ability to model heterogeneous customer segments and nonlinear spending patterns.
