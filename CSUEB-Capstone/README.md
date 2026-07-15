@@ -150,6 +150,46 @@ Figure 4: Regularized regression results showing improved model stability and pr
 
 ![OLS Regression Summary](assets/model_performance/Model%20Performance%20Comparison.PNG)
 
+Interpretation
+Regularization significantly improved model performance compared to the OLS baseline.
+Ridge regression stabilized coefficients and reduced overfitting, while ElasticNet achieved the most balanced results by combining L1 and L2 penalties.
+These models demonstrated that incorporating regularization helps capture meaningful relationships between behavioral and transactional features without sacrificing interpretability
+
+🌳 Tree‑Based Models: HistGradientBoosting & XGBoost
+To capture nonlinear relationships and complex interactions between customer behavior, transaction patterns, and churn risk, I implemented two tree‑based ensemble models: HistGradientBoosting and XGBoost. These models typically outperform linear methods in CLV prediction due to their ability to model heterogeneous customer segments and nonlinear spending patterns.
+
+HistGradientBoosting Regression
+HistGradientBoosting is a fast, histogram‑based gradient boosting algorithm optimized for large datasets.
+
+Handles nonlinear relationships without manual feature engineering
+
+Robust to multicollinearity and skewed distributions
+
+Achieved a substantial improvement in R² compared to regularized linear models
+
+Reduced RMSE and MAE, indicating stronger predictive accuracy
+
+Automatically captures interactions between churn behavior and spending frequency
+
+Key Insight:  
+This model demonstrated that CLV is influenced by nonlinear patterns — especially customer recency, churn probability, and purchase intervals — which linear models cannot fully capture.
+
+XGBoost Regression
+XGBoost provided the strongest performance among all models tested.
+
+Uses gradient boosting with optimized regularization
+
+Handles missing values and irregular customer behavior patterns effectively
+
+Achieved the highest R² and lowest RMSE/MAE across all models
+
+Captured subtle interactions between churn, recency, and monetary value
+
+Produced stable feature importance rankings that aligned with business intuition
+
+Key Insight:  
+XGBoost’s ability to model complex relationships makes it ideal for CLV prediction, where customer behavior is rarely linear or uniform. It provides the most reliable forecasts for long‑term value and retention strategy.
+
 
 ---
 
