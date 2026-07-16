@@ -197,7 +197,10 @@ Produced stable feature importance rankings that aligned with business intuition
 Key Insight:  
 XGBoost’s ability to model complex relationships makes it ideal for CLV prediction, where customer behavior is rarely linear or uniform. It provides the most reliable forecasts for long‑term value and retention strategy.
 
+--- 
+
 🧠 Overall Interpretation
+
 The modeling pipeline shows a clear progression in predictive performance:
 
 Linear models struggled because CLV relationships are nonlinear and influenced by interactions between churn, recency, frequency, and monetary value.
@@ -205,6 +208,23 @@ Linear models struggled because CLV relationships are nonlinear and influenced b
 Regularized models improved stability and accuracy but still couldn’t capture complex behavior.
 
 Tree‑based models delivered the strongest results, with XGBoost outperforming all others due to its ability to model nonlinear patterns, interactions, and heterogeneous customer segments.
+
+---
+
+🏁 Conclusion & Next Steps
+
+Conclusion
+This modeling pipeline demonstrates a clear and disciplined progression from simple linear methods to advanced ensemble techniques.
+Starting with OLS regression, the baseline revealed strong multicollinearity and limited predictive power.
+Regularized models — Ridge and ElasticNet — improved stability and accuracy, showing that linear relationships alone were insufficient but still valuable for interpretability.
+
+The transition to tree‑based models marked a significant leap in performance.
+HistGradientBoosting captured nonlinear patterns and interactions that linear models could not represent, while XGBoost delivered the strongest overall results with the highest R² and lowest error metrics.
+These findings confirm that Customer Lifetime Value (CLV) is driven by complex behavioral dynamics, making nonlinear ensemble models the most effective choice for real‑world prediction and retention strategy.
+
+Overall, the modeling workflow reflects a mature, industry‑standard approach:
+baseline → regularized → nonlinear → optimized ensemble,
+supported by clear diagnostics, visualizations, and business interpretation.
 
 ---
 
