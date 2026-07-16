@@ -229,6 +229,27 @@ supported by clear diagnostics, visualizations, and business interpretation.
 
 ---
 
+🚀 Next Steps
+
+To further enhance the CLV modeling framework, the following improvements can be explored:
+
+Hyperparameter Optimization  
+Use randomized search or Bayesian optimization to refine XGBoost and HGB parameters for even stronger performance.
+
+Feature Engineering  
+Create interaction features (e.g., Recency × Frequency), customer segmentation indicators, or churn‑adjusted monetary value.
+
+Time‑Based Modeling  
+Incorporate temporal features such as purchase intervals, seasonality, or customer lifecycle stages.
+
+Survival Analysis Integration  
+Combine CLV prediction with survival models to jointly estimate retention probability and long‑term value.
+
+Deployment  
+Package the final model into an API or dashboard for business teams to use in real‑time decision‑making.
+
+---
+
 ## 📁 Project Structure
 
 - **assets/** — Visualizations, charts, and diagnostic plots  
