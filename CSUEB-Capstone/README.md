@@ -214,6 +214,7 @@ Tree‑based models delivered the strongest results, with XGBoost outperforming 
 🏁 Conclusion & Next Steps
 
 Conclusion
+
 This modeling pipeline demonstrates a clear and disciplined progression from simple linear methods to advanced ensemble techniques.
 Starting with OLS regression, the baseline revealed strong multicollinearity and limited predictive power.
 Regularized models — Ridge and ElasticNet — improved stability and accuracy, showing that linear relationships alone were insufficient but still valuable for interpretability.
