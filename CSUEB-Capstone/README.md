@@ -197,6 +197,14 @@ Produced stable feature importance rankings that aligned with business intuition
 Key Insight:  
 XGBoost’s ability to model complex relationships makes it ideal for CLV prediction, where customer behavior is rarely linear or uniform. It provides the most reliable forecasts for long‑term value and retention strategy.
 
+🧠 Overall Interpretation
+The modeling pipeline shows a clear progression in predictive performance:
+
+Linear models struggled because CLV relationships are nonlinear and influenced by interactions between churn, recency, frequency, and monetary value.
+
+Regularized models improved stability and accuracy but still couldn’t capture complex behavior.
+
+Tree‑based models delivered the strongest results, with XGBoost outperforming all others due to its ability to model nonlinear patterns, interactions, and heterogeneous customer segments.
 
 ---
 
