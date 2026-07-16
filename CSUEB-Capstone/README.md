@@ -247,7 +247,7 @@ Combine CLV prediction with survival models to jointly estimate retention probab
 
 Deployment  
 Package the final model into an API or dashboard for business teams to use in real‑time decision‑making.
-
+ 
 ---
 
 ## 📁 Project Structure
