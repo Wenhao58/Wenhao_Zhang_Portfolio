@@ -153,6 +153,7 @@ Figure 4: Regularized regression results showing improved model stability and pr
 ![OLS Regression Summary](assets/model_performance/Model_Performance_Comparison.PNG)
 
 Interpretation
+
 Regularization significantly improved model performance compared to the OLS baseline.
 Ridge regression stabilized coefficients and reduced overfitting, while ElasticNet achieved the most balanced results by combining L1 and L2 penalties.
 These models demonstrated that incorporating regularization helps capture meaningful relationships between behavioral and transactional features without sacrificing interpretability
