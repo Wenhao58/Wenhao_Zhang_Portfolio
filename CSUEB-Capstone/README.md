@@ -162,7 +162,7 @@ These models demonstrated that incorporating regularization helps capture meanin
 🌳 Tree‑Based Models: HistGradientBoosting & XGBoost
 To capture nonlinear relationships and complex interactions between customer behavior, transaction patterns, and churn risk, I implemented two tree‑based ensemble models: HistGradientBoosting and XGBoost. These models typically outperform linear methods in CLV prediction due to their ability to model heterogeneous customer segments and nonlinear spending patterns.
 
-![OLS Regression Summary](assets/model_performance/Performance_Summary(Tree‑Based Models).PNG)
+![OLS Regression Summary](assets/model_performance/Performance_Summary(Tree‑Based-Models).PNG)
 
 HistGradientBoosting Regression
 HistGradientBoosting is a fast, histogram‑based gradient boosting algorithm optimized for large datasets.
